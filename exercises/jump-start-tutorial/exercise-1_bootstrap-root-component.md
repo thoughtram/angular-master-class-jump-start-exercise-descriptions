@@ -10,7 +10,7 @@ In `src/client/app/contacts-app.ts` you'll find the import statement:
 import {Component} from 'angular2/core';
 ```
 
-And in `src/clientapp.ts` you'll find:
+And in `src/client/app.ts` you'll find:
 
 ```
 import {bootstrap} from 'angular2/platform/browser';
