@@ -41,7 +41,7 @@ Import this type and create a `contact` property of this type in `ContactsApp` t
     phone: '',
     birthday: '',
     website: '',
-    image: 'images/7.jpg',
+    image: '/assets/images/7.jpg',
     address: {
       street: '6554 park lane',
       zip: '43378',
@@ -51,7 +51,7 @@ Import this type and create a `contact` property of this type in `ContactsApp` t
   }
   ```
 
-3. Render the `contact` information using expressions and interpolations with the following template (replace this with the "Hello World" part):
+3. Render the `contact` information using expressions and interpolations with the following template (replace the "Hello World" part with this):
 
   ```
   <ul class="collection">
