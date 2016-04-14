@@ -6,7 +6,7 @@ In this exercise we're going to learn how to create services and how to inject t
 
 ## Scenario
 
-`CONTACT_DATA` is an implementation detail we don't want to rely on in `ContactsApp`. Create a serve `ContactsService` using angular-cli by running:
+`CONTACT_DATA` is an implementation detail we don't want to rely on in `ContactsApp`. Create a service called `ContactsService` using angular-cli by running:
 
 ```
 $ ng generate service contacts-service
