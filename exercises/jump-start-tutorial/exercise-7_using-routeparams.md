@@ -13,7 +13,7 @@ The contacts app should be extended with a contact detail page. We need several 
 
 ## Tasks
 
-1. Create a new method `getContact(id: any)` which takes an id and returns a contact by that id. Hint: you can use [`Array#find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) for this
+1. Create a new method `getContact(id: any)` which takes an id and returns a contact by that id. (Hint: you can use [`Array#find(fn)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) e.g.  `this.contacts.find(contact => contact.id == id);`)
 2. Create a new component `ContactDetailComponent`, using the tools you already know, with the following template:
 
   ```
@@ -77,7 +77,7 @@ The contacts app should be extended with a contact detail page. We need several 
 9. Make sure that `contact.id` is passed as `id` route parameter in that configuration
 10. Import `RouteParams` and `ContactsService` to use them in `ContactDetailComponent`
 11. Inject `RouteParams` and `ContactsService` in `ContactDetailComponent`
-12. Create a `contact` property in `ContactDetailComponent` and use `RouteParams` and `ContactsService` to retrieve the requested contact (e.g. use `Array.find` for that: `this.contacts.find(contact => contact.id == id);`)
+12. Create a `contact` property in `ContactDetailComponent` and use `RouteParams` and `ContactsService` to retrieve the requested contact
 13. Render correct `contact` properties in `ContactDetailComponent`'s view
 14. Add `RouterLink` to get back to `ContactsListComponent`
 
