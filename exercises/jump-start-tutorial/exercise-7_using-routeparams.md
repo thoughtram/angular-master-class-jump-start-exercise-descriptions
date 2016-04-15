@@ -70,7 +70,7 @@ The contacts app should be extended with a contact detail page. We need several 
   ```
 3. Import `ContactDetailComponent` so you can use it in `ContactsApp`
 4. Add a new route config to `ContactsApp` that takes `/contacts/:id` and points to `ContactDetailComponent`
-5. Set `useAsDefault: true` for the main `ContactsListComponent` route
+5. Set `useAsDefault: true` in the route config for the main `ContactsListComponent` route
 6. Add names to the route configuration (`ContactsList`, `ContactDetail`)
 7. Import `ROUTER_DIRECTIVES` so you can use them in `ContactsListComponent`
 8. Add `ROUTER_DIRECTIVES` to `ContactsListComponent` directive dependencies
