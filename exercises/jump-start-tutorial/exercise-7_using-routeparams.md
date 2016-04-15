@@ -79,7 +79,7 @@ The contacts app should be extended with a contact detail page. We need several 
 11. Inject `RouteParams` and `ContactsService` in `ContactDetailComponent`
 12. Create a `contact` property in `ContactDetailComponent` and use `RouteParams` and `ContactsService` to retrieve the requested contact (e.g. use `Array.find` for that: `this.contacts.find(contact => contact.id == id);`)
 13. Render correct `contact` properties in `ContactDetailComponent`'s view
-14. Add `RouterLink` to get back to `ContactsListComponent`
+14. Add `routerLink` to get back to `ContactsListComponent`
 
 ### Additional resources and help
 
