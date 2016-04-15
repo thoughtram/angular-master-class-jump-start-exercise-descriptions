@@ -70,16 +70,17 @@ The contacts app should be extended with a contact detail page. We need several 
   ```
 3. Import `ContactDetailComponent` so you can use it in `ContactsApp`
 4. Add a new route config to `ContactsApp` that takes `/contacts/:id` and points to `ContactDetailComponent`
-5. Add names to the route configuration (`ContactsList`, `ContactDetail`)
-6. Import `ROUTER_DIRECTIVES` so you can use them in `ContactsListComponent`
-7. Add `ROUTER_DIRECTIVES` to `ContactsListComponent` directive dependencies
-8. Change `ContactsListComponent`'s view, so that `<span>` become `<a>` and have `RouterLink` on them with a DSL configuration that points to `ContactDetailComponent`
-9. Make sure that `contact.id` is passed as `id` route parameter in that configuration
-10. Import `RouteParams` and `ContactsService` to use them in `ContactDetailComponent`
-11. Inject `RouteParams` and `ContactsService` in `ContactDetailComponent`
-12. Create a `contact` property in `ContactDetailComponent` and use `RouteParams` and `ContactsService` to retrieve the requested contact (e.g. use `Array.find` for that: `this.contacts.find(contact => contact.id == id);`)
-13. Render correct `contact` properties in `ContactDetailComponent`'s view
-14. Add `routerLink` to get back to `ContactsListComponent`
+5. Set `useAsDefault: true` for the main `ContactsListComponent` route
+6. Add names to the route configuration (`ContactsList`, `ContactDetail`)
+7. Import `ROUTER_DIRECTIVES` so you can use them in `ContactsListComponent`
+8. Add `ROUTER_DIRECTIVES` to `ContactsListComponent` directive dependencies
+9. Change `ContactsListComponent`'s view, so that `<span>` become `<a>` and have `RouterLink` on them with a DSL configuration that points to `ContactDetailComponent`
+10. Make sure that `contact.id` is passed as `id` route parameter in that configuration
+11. Import `RouteParams` and `ContactsService` to use them in `ContactDetailComponent`
+12. Inject `RouteParams` and `ContactsService` in `ContactDetailComponent`
+13. Create a `contact` property in `ContactDetailComponent` and use `RouteParams` and `ContactsService` to retrieve the requested contact (e.g. use `Array.find` for that: `this.contacts.find(contact => contact.id == id);`)
+14. Render correct `contact` properties in `ContactDetailComponent`'s view
+15. Add `routerLink` to get back to `ContactsListComponent`
 
 ### Additional resources and help
 
