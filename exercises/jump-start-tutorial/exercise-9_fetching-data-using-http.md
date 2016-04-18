@@ -19,12 +19,12 @@ Use these new tools to extend `ContactsService` to use `Http` and fetch the cont
 3. Import `Injectable` to use it in `ContactsService`
 4. Add `@Injectable()` decorator to `ContactsService`
 5. Import `Http` and inject it into `ContactsService`
-6. Create a property `API_ENDPOINT` with the value of `http://localhost:4000` in `ContactsService`
+6. Create a property `API_ENDPOINT` with the value of `http://localhost:4200` in `ContactsService`
 7. Change `getContacts()` so that it uses `Http.get()` to fetch contacts data from `http://localhost:4200/api/contacts`.
-8. Do the same for `getContact()`. Keep in mind that this API expects a parameter (`http://localhost:4200/api/contacts/{$id}`
+8. Do the same for `getContact()`. Keep in mind that this API expects a parameter (`http://localhost:4200/api/contacts/${id}`
 9. Change `ContactsService` usage in `ContactDetailComponent`, `ContactEditorComponent` and `ContactsListComponent` since it's now based on observables
-10. Fix rendering in `ContactDetailComponent`'s view using elvis operator (`contact?.[PROPERTY]`)
-11. Make sure to initialize `contact: Contact = <Contact>{ address: {}};` in `ContactEditorComponent` since the elvis operator can't be used with `ngModel`
+10. Fix rendering in `ContactDetailComponent`'s view using safe navigation operator (`contact?.[PROPERTY]`)
+11. Make sure to initialize `contact: Contact = <Contact>{ address: {}};` in `ContactEditorComponent` since the safe navigation operator can't be used with `ngModel`
 
 ## Bonus Tasks
 
