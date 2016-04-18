@@ -18,7 +18,7 @@ We still have to add http capabilities to our `ContactEditorComponent`, since it
   Don't worry about the bad ergonomics for now. This will be fixed in later releases.
 3. Teach `updateContact(contact: Contact)` to use `Http.put(url, data, headers)`, to send the contact that has to be updated over the wire.
 
-  - The endpoint is `localhost:4200/api/contacts/{$id}`
+  - The endpoint is `localhost:4200/api/contacts/${id}`
   - Make sure to use `PUT` method
   - You can serialize the contact data using `JSON.stringify(object)`
 
