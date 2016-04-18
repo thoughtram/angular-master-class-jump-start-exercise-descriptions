@@ -16,7 +16,7 @@ $ ng generate component contacts-list-component
 
 1. Create a component `ContactsListComponent` with angular-cli and move the current contact list logic there from `ContactsApp`
 2. Import the new `ContactsListComponent` so it can be used in `ContactsApp`
-3. Import `ROUTER_PROVIDERS`, `ROUTER_DIRECTIVES` and `RouterConfig` from `angular2/router`
+3. Import `ROUTER_PROVIDERS`, `ROUTER_DIRECTIVES` and `RouteConfig` from `angular2/router`
 4. Add `ROUTER_PROVDERS` to `ContactsApp`
 5. Add `@RouteConfig()` decorator to `ContactsApp` with a configuration where `/` points to `ContactsListComponent`
 6. Add `ROUTER_DIRECTIVES` to `ContactsApp`'s directive dependencies
