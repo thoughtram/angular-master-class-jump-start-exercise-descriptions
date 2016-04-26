@@ -7,7 +7,7 @@ The goal of this exercise is to explore and discuss how we create lists dynamica
 In order to render a list of contacts, we need data that we can actually work with. Take a look at `src/client/app/data/contact-data.ts`. What you'll find is a data collection of contacts.
 
 ```
-export let CONTACT_DATA = [
+export const CONTACT_DATA = [
   {
     id: 0,
     firstname: 'Christoph',
