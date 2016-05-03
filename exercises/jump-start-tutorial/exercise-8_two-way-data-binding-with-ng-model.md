@@ -26,7 +26,7 @@ In `src/client/app/clone-service/clone-service.ts` you can find a `CloneService`
     <form class="col s12 m7">
       <div class="card">
         <div class="card-image">
-          <img [src]="INSERT_CONTACT_IMAGE"">
+          <img [src]="INSERT_CONTACT_IMAGE">
           <span class="card-title">{{contact.name}}</span>
         </div>
         <div class="card-content grey-text text-darken-4">
