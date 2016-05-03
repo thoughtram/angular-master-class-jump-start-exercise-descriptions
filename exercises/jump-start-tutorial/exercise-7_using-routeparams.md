@@ -1,6 +1,6 @@
 # Exercise: Using RouteParams
 
-Next up, we want to route to a contact detail page. In this exercise we're going to create a new component that is able to retreive routing parameters.
+Next up, we want to route to a contact detail page. In this exercise we're going to create a new component that is able to retrieve routing parameters.
 
 ## Scenario
 

@@ -27,7 +27,7 @@ Our app should render the same, it's just the inner architecture that has change
 3. Create a method `getContacts()` which returns the given data
 4. Add `ContactsService` provider to `ContactsApp`'s `providers` property to make the service available in your app
 5. Inject `ContactsService` in `ContactsApp`
-6. Use `ContactsService#getContacts()` to retreive the contacts data
+6. Use `ContactsService#getContacts()` to retrieve the contacts data
 
 ### Additional resources and help
 
