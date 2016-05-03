@@ -4,7 +4,7 @@ In the last exercise we learned how to bootstrap an Angular 2 component. Let's t
 
 ## Scenario
 
-Our `ContactsApp` needs a nice header because, well... that's what fancy apps do, right? In `src/client/app/contact-header/contact-header.ts` you can find a `ContactHeaderComponent`. Nothing special here. Just a component with a template, something we already know.
+Our `ContactsApp` needs a nice header because, well... that's what fancy apps do, right? In `src/client/app/contact-header-component/contact-header-component.ts` you can find a `ContactHeaderComponent`. Nothing special here. Just a component with a template, something we already know.
 
 Import that component and use it `ContactsApp`'s template. Don't forget to add `ContactHeaderComponent` to the `directives` dependencies.
 
