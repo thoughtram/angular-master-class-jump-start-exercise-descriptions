@@ -8,25 +8,36 @@ In order to render a list of contacts, we need data that we can actually work wi
 
 ```
 export const CONTACT_DATA = [
-  {
-    id: 0,
-    firstname: 'Christoph',
-    lastname: 'Burgdorf',
-    street: 'thoughtram road 1',
-    zip: '65222',
-    city: 'Hanover',
-    image: '/images/0.jpg'
-  },
-  {
-    id: 1,
-    firstname: 'Pascal',
-    lastname: 'Precht',
-    street: 'thoughtram road 1',
-    zip: '65222',
-    city: 'Hanover',
-    image: '/images/1.jpg'
-  },
-  ...
+    {
+        id: 0,
+        name: 'Christoph Burgdorf',
+        email: 'christoph@thoughtram.io',
+        phone: '+49 000 1111',
+        birthday: '1984-01-02',
+        website: 'thoughtram.io',
+        image: '/assets/images/0.jpg',
+        address: {
+          street: 'thoughtram road 1',
+          zip: '65222',
+          city: 'Hanover',
+          country: 'Germany'
+        }
+    },
+    {
+        id: 1,
+        name: 'Pascal Precht',
+        email: 'pascal@thoughtram.io',
+        phone: '+49 000 222',
+        birthday: '1991-03-31',
+        website: 'thoughtram.io',
+        image: '/assets/images/1.jpg',
+        address: {
+          street: 'thoughtram road 1',
+          zip: '65222',
+          city: 'Hanover',
+          country: 'Germany'
+        }
+    }];
 ```
 
 Import that data, assign it a `contacts` property of `ContactsApp` and use the `ngFor` directive to render a HTML list, based on that data, in `ContactsApp`'s view.
