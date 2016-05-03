@@ -12,7 +12,7 @@ Import that component and use it `ContactsApp`'s template. Don't forget to add `
 
 1. Import `ContactHeaderComponent`
 2. Add it to `ContactsApp` directives dependencies
-3. Add `<contact-header>` to `ContactsApp` view
+3. Add `<contact-header-component>` to `ContactsApp` view
 
 ### Additional resources and help
 
