@@ -35,7 +35,7 @@ The contacts app should be extended with a contact detail page. We need several 
           </div>
           <div class="row">
             <span class="col s6"><i class="material-icons prefix">cake</i> Birthday:</span>
-            <span class="col s6">INSERT_CONTACT_PHONE</span>
+            <span class="col s6">INSERT_CONTACT_BIRTHDAY</span>
           </div>
           <div class="row">
             <span class="col s6"><i class="material-icons prefix">public</i> Website:</span>

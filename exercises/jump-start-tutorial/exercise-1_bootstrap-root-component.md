@@ -24,9 +24,10 @@ Use the the `@Component()` decorator to build a `ContactsApp` component, and the
 1. Create a class `ContactsApp` and export it using `export`
 2. Decorate `ContactsApp` with `@Component()` decorator
 3. Give component an appropriate selector (e.g. `contacts-app`)
-4. Define a template on the component that displays "Hello World"
-5. Use given selector as tag in `index.html`
-6. Bootstrap `ContactsApp` using `bootstrap()`
+4. Set `styleUrls` to `['app/contacts-app.css']` in the `@Component()` decorator
+5. Define a template on the component that displays "Hello World"
+6. Use given selector as tag in `index.html`
+7. Bootstrap `ContactsApp` using `bootstrap()`
 
 ### Additional resources and help
 
@@ -34,7 +35,7 @@ This project can be run using the angular-cli. Once installed using
 
 ```
 $ npm install -g angular-cli
-$ cd path/to/angular2-master-class-exercises
+$ cd path/to/angular2-master-class-starter
 $ npm install
 ```
 you can compile, build and run the app using
