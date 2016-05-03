@@ -30,6 +30,10 @@ Use these new tools to extend `ContactsService` to use `Http` and fetch the cont
 
 You might notice that the image in both `ContactDetailComponent` and `ContactEditorComponent` cause `404` errors. Can you find a solution for it?
 
+##Contacts API
+* `/api/contacts` returns a response in the form `{"items":[<Contact>{},...]}`
+* `/api/contacts/:id` returns a response in the form `{"item":<Contact>{}}`
+
 ### Additional resources and help
 
 - [HTTP_PROVIDERS](https://angular.io/docs/ts/latest/api/http/HTTP_PROVIDERS-let.html)
