@@ -1,6 +1,6 @@
 # Exercise: Building a service and using DI
 
-A static list of data is just okay to try some things out or for demo purposes. However, in a real world app, we surely don't want to rely on static data, but rather have a service that takes care of provide the data we need, no matter where it comes from.
+A static list of data is just okay to try some things out or for demo purposes. However, in a real world app, we surely don't want to rely on static data, but rather have a service that takes care of providing the data we need, no matter where it comes from.
 
 In this exercise we're going to learn how to create services and how to inject them into our application using providers.
 
