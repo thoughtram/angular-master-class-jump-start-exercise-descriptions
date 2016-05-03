@@ -57,7 +57,7 @@ Import this type and create a `contact` property of this type in `ContactsApp` t
   <ul class="collection">
     <li class="collection-item avatar">
       <img [src]="INSERT_CONTACT_IMAGE" alt="" class="circle">
-      <span class="title">INSER_CONTACT_NAME</span>
+      <span class="title">INSERT_CONTACT_NAME</span>
     </li>
   </ul>
   ```

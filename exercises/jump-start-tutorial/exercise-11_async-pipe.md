@@ -1,6 +1,6 @@
 # Exercise: Async Pipe
 
-We can fine-tune our `ContactsApp` a little bit futher before we reached the end of this tutorial by using `AsyncPipe` in combination with our observables data structures.
+We can fine-tune our `ContactsApp` a little bit further before we reached the end of this tutorial by using `AsyncPipe` in combination with our observables data structures.
 
 ## Scenario
 
