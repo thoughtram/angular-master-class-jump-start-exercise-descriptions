@@ -10,21 +10,33 @@ In order to render a list of contacts, we need data that we can actually work wi
 export const CONTACT_DATA = [
   {
     id: 0,
-    firstname: 'Christoph',
-    lastname: 'Burgdorf',
-    street: 'thoughtram road 1',
-    zip: '65222',
-    city: 'Hanover',
-    image: '/images/0.jpg'
+    name: 'Christoph Burgdorf',
+    birthday: 1980-01-01',
+    email: 'emailaddress',
+    phone: '_49 000 1111',
+    website: 'thoughtram.io',
+    image: '/images/0.jpg',
+    address: {
+      street: 'thoughtram road 1',
+      zip: '65222',
+      city: 'Hanover',
+      country: 'Germany'
+    }
   },
   {
     id: 1,
-    firstname: 'Pascal',
-    lastname: 'Precht',
-    street: 'thoughtram road 1',
-    zip: '65222',
-    city: 'Hanover',
-    image: '/images/1.jpg'
+    name: 'Pascal Precht',
+    birthday: 1980-01-01',
+    email: 'emailaddress',
+    phone: '_49 000 1111',
+    website: 'thoughtram.io',
+    image: '/images/1.jpg',
+    address: {
+      street: 'thoughtram road 1',
+      zip: '65222',
+      city: 'Hanover',
+      country: 'Germany'
+    }
   },
   ...
 ```
