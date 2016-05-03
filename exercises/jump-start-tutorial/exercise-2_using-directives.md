@@ -10,7 +10,8 @@ Import that component and use it `ContactsApp`'s template. Don't forget to add `
 
 ## Tasks
 
-1. Import `ContactHeaderComponent`
+1. Import `ContactHeaderComponent` (Note: Import path is relative to ContactsApp file - `import {ContactHeaderComponent} from ```./contact-header-component/contact-header-component```;
+`)
 2. Add it to `ContactsApp` directives dependencies
 3. Add `<contact-header-component>` to `ContactsApp` view
 
