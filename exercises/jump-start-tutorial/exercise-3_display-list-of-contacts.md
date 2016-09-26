@@ -4,7 +4,7 @@ The goal of this exercise is to explore and discuss how we create lists dynamica
 
 ## Scenario
 
-In order to render a list of contacts, we need data that we can actually work with. Take a look at `src/client/app/data/contact-data.ts`. What you'll find is a data collection of contacts.
+In order to render a list of contacts, we need data that we can actually work with. Take a look at `src/app/data/contact-data.ts`. What you'll find is a data collection of contacts.
 
 ```
 export const CONTACT_DATA = [
@@ -29,14 +29,14 @@ export const CONTACT_DATA = [
   ...
 ```
 
-Import that data, assign it a `contacts` property of `ContactsApp` and use the `ngFor` directive to render a HTML list, based on that data, in `ContactsApp`'s view.
+Import that data, assign it a `contacts` property of `ContactsAppComponent` and use the `ngFor` directive to render a HTML list, based on that data, in `ContactsAppComponent`'s view.
 
 ## Tasks
 
 1. Import `CONTACT_DATA`
-2. Create a property `contacts` in `ContactsApp` and assign the collection.
-3. Extend the existing static list in `ContactsApp`'s view with `ngFor` and render a list item for each contact in the collection.
+2. Create a property `contacts` in `ContactsAppComponent` and assign the collection.
+3. Extend the existing static list in `ContactsAppComponent`'s view with `ngFor` and render a list item for each contact in the collection.
 
 ### Additional resources and help
 
-- [NgFor](https://angular.io/docs/ts/latest/api/common/NgFor-directive.html)
+- [NgFor](https://angular.io/docs/ts/latest/guide/template-syntax.html#!#ngFor)

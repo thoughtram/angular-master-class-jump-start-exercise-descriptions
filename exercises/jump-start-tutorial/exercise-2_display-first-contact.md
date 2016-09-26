@@ -4,7 +4,7 @@ Time to display our first contact! We know that component properties can be used
 
 ## Scenario
 
-"Hello World" is not enough. We want to build a contacts app, so eventually we're going to display a list of contacts. But let's do it one step at a time. In `src/client/app/models/contact.ts` you can find an interface definition of `Contact`.
+"Hello World" is not enough. We want to build a contacts app, so eventually we're going to display a list of contacts. But let's do it one step at a time. In `src/app/models/contact.ts` you can find an interface definition of `Contact`.
 
 ```
 interface Address {
@@ -26,7 +26,7 @@ export interface Contact {
 }
 ```
 
-Import this type and create a `contact` property of this type in `ContactsApp` to render the data of a first contact in the component's template (you can find the data in the task list).
+Import this type and create a `contact` property of this type in `ContactsAppComponent` to render the data of a first contact in the component's template (you can find the data in the task list).
 
 ## Tasks
 
@@ -57,12 +57,12 @@ Import this type and create a `contact` property of this type in `ContactsApp` t
   <ul class="collection">
     <li class="collection-item avatar">
       <img [src]="INSERT_CONTACT_IMAGE" alt="" class="circle">
-      <span class="title">INSER_CONTACT_NAME</span>
+      <span class="title">INSERT_CONTACT_NAME</span>
     </li>
   </ul>
   ```
 
-  You're probably noticing the brackets in `<img [src]="...">`. Don't be scared! If you're curious, feel free to checkout the resources for more information. We're going to talk about them later.
+You're probably noticing the brackets in `<img [src]="...">`. Don't be scared! If you're curious, feel free to checkout the resources for more information. We're going to talk about them later.
 
 ### Additional resources and help
 

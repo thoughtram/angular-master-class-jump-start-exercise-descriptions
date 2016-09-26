@@ -1,6 +1,6 @@
 # Exercise: Async Pipe
 
-We can fine-tune our `ContactsApp` a little bit futher before we reached the end of this tutorial by using `AsyncPipe` in combination with our observables data structures.
+We can fine-tune our `ContactsAppComponent` a little bit further before we reached the end of this tutorial by using `AsyncPipe` in combination with our observables data structures.
 
 ## Scenario
 
@@ -16,4 +16,4 @@ Observable data structures can be passed directly from a component into its view
 ### Additional resources and help
 
 - [Pipes - AsyncPipe](https://angular.io/docs/ts/latest/guide/pipes.html#!#the-stateful-asyncpipe-)
-- [AsyncPipe](https://angular.io/docs/ts/latest/api/common/AsyncPipe-class.html)
+- [AsyncPipe](https://angular.io/docs/ts/latest/api/common/index/AsyncPipe-class.html)

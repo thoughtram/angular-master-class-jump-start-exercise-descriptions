@@ -6,17 +6,17 @@ In this exercise we're going to learn how to create services and how to inject t
 
 ## Scenario
 
-`CONTACT_DATA` is an implementation detail we don't want to rely on in `ContactsApp`. Create a service called `ContactsService` using angular-cli by running:
+`CONTACT_DATA` is an implementation detail we don't want to rely on in `ContactsAppComponent`. Create a service called `ContactsService` using angular-cli by running:
 
 ```
-$ ng generate service contacts-service
+$ ng generate service --nospec contacts
 ```
 Or the shorter version:
 ```
-$ ng g service contacts-service
+$ ng g s --nospec contacts
 ```
 
-This will create a file in `src/client/app/contacts-service/contacts-service.ts`. Implement a method `getContacts()` that simply returns the collection of `CONTACT_DATA` for us. Use that new service by adding a provider to `bootstrap()` and injecting it into `ContactsApp`.
+This will create a file in `src/app/contacts.service.ts`. Implement a method `getContacts()` that simply returns the collection of `CONTACT_DATA` for us. Use that new service by adding a provider to the `providers` property of the module in `app.module.ts` and injecting the service in the constructor.
 Our app should render the same, it's just the inner architecture that has changed.
 
 
@@ -25,9 +25,12 @@ Our app should render the same, it's just the inner architecture that has change
 1. Create a `ContactsService` using angular-cli
 2. Import `CONTACT_DATA`
 3. Create a method `getContacts()` which returns the given data
-4. Add `ContactsService` provider to `ContactsApp`'s `providers` property to make the service available in your app
-5. Inject `ContactsService` in `ContactsApp`
-6. Use `ContactsService#getContacts()` to retreive the contacts data
+4. Add `ContactsService` provider to the `providers` property of the module in `app.module.ts` to make the service available in your app
+5. Inject `ContactsService` in `ContactsAppComponent`
+6. Import `OnInit`
+7. Make `ContactsAppComponent` implement `OnInit`
+8. Add an `ngOnInit()` method to `ContactsAppComponent`
+9. Use `ContactsService#getContacts()` to retrieve the contacts data
 
 ### Additional resources and help
 
