@@ -73,7 +73,7 @@ We need several things to get there:
     </div>
   </div>
   ```
-3. Add a new route to `ContactsAppRoutes` with the path `/contacts/:id` that points to `ContactsDetailComponent`
+3. Add a new route to `ContactsAppRoutes` with the path `contacts/:id` that points to `ContactsDetailComponent`
 4. Change `ContactsListComponent`'s view to wrap an `<a>` around `<img>` and `<span>` and use the `RouterLink` directive with a DSL configuration that points to `ContactsDetailComponent`
 5. Import and inject `ActivatedRoute` and `ContactsService` in `ContactsDetailComponent`
 6. Create a `contact` property in `ContactsDetailComponent` and use `ActivatedRoute` and `ContactsService` to retrieve the requested contact
