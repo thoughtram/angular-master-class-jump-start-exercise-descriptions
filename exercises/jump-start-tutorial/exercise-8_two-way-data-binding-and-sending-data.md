@@ -19,7 +19,7 @@ This form displays a `contact` but allows for editing that contact at the same t
     <form class="col s12 m7">
       <div class="card">
         <div class="card-image">
-          <img [src]="INSERT_CONTACT_IMAGE"">
+          <img [src]="INSERT_CONTACT_IMAGE">
           <span class="card-title">{{contact.name}}</span>
         </div>
         <div class="card-content grey-text text-darken-4">
