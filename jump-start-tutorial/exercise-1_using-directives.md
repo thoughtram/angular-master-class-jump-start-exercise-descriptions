@@ -15,7 +15,7 @@ All we need to do is to use the component in our component's template.
 1. Change `ContactsAppComponent`'s template to use Angular Material's `<mat-toolbar>` component. Here's a snippet:
 
   ```
-  <mat-toolbar color="primary">Contacts</md-toolbar>
+  <mat-toolbar color="primary">Contacts</mat-toolbar>
   ```
 
 ### Additional resources and help
