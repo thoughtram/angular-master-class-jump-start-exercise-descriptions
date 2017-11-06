@@ -50,7 +50,7 @@ We need several things to get there:
   </div>
   ```
 3. Add a new route to `APPROUTES` with the path `contacts/:id` that points to `ContactsDetailComponent`
-4. Change the `<mat-item>` in `ContactsListComponent`'s view to `<a mat-list-item>` and use the `RouterLink` directive with a DSL configuration that points to `ContactsDetailComponent`
+4. Change the `<mat-list-item>` in `ContactsListComponent`'s view to `<a mat-list-item>` and use the `RouterLink` directive with a DSL configuration that points to `ContactsDetailComponent`
 5. Import and inject `ActivatedRoute` and `ContactsService` in `ContactsDetailComponent`
 6. Create a `contact` property in `ContactsDetailComponent` and use `ActivatedRoute` and `ContactsService` to retrieve the requested contact
 7. Render correct `contact` properties in `ContactsDetailComponent`'s view
